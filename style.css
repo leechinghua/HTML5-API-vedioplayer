@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
 }
+
 main {
   display: flex;
   /* border: 1px solid #000;*/
@@ -25,11 +26,11 @@ svg {
   min-width: 10px;
 }
 
-aside {
-  width: 40%;
-}
+
 aside ul {
   list-style-type: none;
+  margin-top: 1rem;
+  padding-left: 0px;
   & li {
     background-color: #dcdcdc;
     padding: 8px;
